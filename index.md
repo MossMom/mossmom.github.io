@@ -1,4 +1,4 @@
-\# This is a cool header
+# This is a cool header
 
 this is some cool text
 
