@@ -1,5 +1,6 @@
 .pageBody {
 	width: 1000px;
+	margin-inline: auto;
 }
 
 h1 {
