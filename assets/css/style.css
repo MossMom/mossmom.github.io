@@ -79,13 +79,9 @@ body {
 footer {
     text-align: center;
     margin-top: auto;
-    border-top: #3a431b;
+    border-top: 3px solid #3a431b;
     background-color: #0d130e;
     padding: 5px;
-    display: flex;
-    flex-direction: column;
-    background-size: auto;
-    flex-shrink: 0;
 }
 
 ul {
