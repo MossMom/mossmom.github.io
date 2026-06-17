@@ -22,21 +22,18 @@
                     <h1>&#127783; It's Raining Somewhere... &#127783;</h1>
                 </div>
                 <br>
-                <div id="navBar">
-                    <nav>
-                        <a href="index.html">Home</a> |
-                        <a href="work.html">Projects</a> |
-                        <a href="characters.html">Characters</a>
-                    </nav>
-                </div>
-                
+                <nav id="navBar">
+                    <a href="index.html">Home</a> |
+                    <a href="work.html">Projects</a> |
+                    <a href="characters.html">Characters</a>
+                </nav>
             </header>
 
             <div>
                 <table cellspacing="20px" id="containerTable">
                     <tr>
                         <td class="sideBar">
-                            <div class="window">
+                            <aside class="window">
                                 <h3>Site Changelog...</h3>
                                 <p>06/10/26 - Added Indivari to characters, allowed fullscreen viewing of images</p>
                                 <p>06/10/26 - Majorly reformatted projects and characters</p>
@@ -47,8 +44,8 @@
                                     <p>02/09/26 - Identity, Projects, & Character pages done</p>
                                     <p>02/02/26 - Site created</p>
                                 </details>
-                            </div>
-                            <div class="window">
+                            </aside>
+                            <aside class="window" style="padding-bottom: 20px;">
                                 <h3>Social Media:</h3>
                                 <img src="assets/images/insta icon.png" alt="Instagram icon" width="20px" class="inlinePic">
                                 Instagram: <a href="https://www.instagram.com/mossmom5646/" target="_blank">mossmom5646</a>
@@ -58,47 +55,54 @@
                                 <br>
                                 <img src="assets/images/spotify icon.png" alt="Spotify icon" width="20px" class="inlinePic">
                                 Spotify: <a href="https://open.spotify.com/user/some-person930" target="_blank">mossy</a>
-                                <br>
-                                <br>
-                            </div>
+                            </aside>
+                            <aside class="window" style="padding-bottom: 20px;">
+                                <p>Click the button below to crash your browser! <i>Why?</i> Because we can! And it's funny!</p>
+                                <button onclick="crashBrowser()">Crash Browser</button>
+                                <script>
+                                    function crashBrowser() {
+                                        while (true) {
+                                            console.log("Crashing...");
+                                        }
+                                    }
+                                </script>
+                            </aside>
                         </td>
                         <td class="mainContent">
-                            <div class="window">
-                            <h2>Welcome to my website!</h2>
-                            <p>
-                                My name is Mossy/Raine <a href="identity.html">(she/they)</a> and I am a computer science<br>graduate, with a minor in American Sign Language.
-                                <br><br>
-                                My hobbies include:
-                                <ul>
-                                    <li>Dungeons and Dragons</li>
-                                    <li>Video gaming</li>
-                                    <li>Game development (see <a href="work.html">projects</a>)</li>
-                                    <li>Story/character writing & world building (see <a href="characters.html">characters</a>)</li>
-                                </ul>
-                                <br>
-                                My favorite games include (in no particular order):
-                                <ul>
-                                    <li>Minecraft</li>
-                                    <li>Stardew Valley</li>
-                                    <li>Terraria</li>
-                                    <li>Outer Wilds</li>
-                                    <li>Blue Prince</li>
-                                    <li>Hades/Hades 2</li>
-                                    <li>Hollow Knight/Silksong</li>
-                                    <li>Mario Party</li>
-                                </ul>
-                            </p>
-                        </div>
+                            <section class="window">
+                                <h2>Welcome to my website!</h2>
+                                <p>
+                                    My name is Mossy/Raine <a href="identity.html">(she/they)</a> and I am a computer science<br>graduate, with a minor in American Sign Language.
+                                    <br><br>
+                                    My hobbies include:
+                                    <ul>
+                                        <li>Dungeons and Dragons</li>
+                                        <li>Video gaming</li>
+                                        <li>Game development (see <a href="work.html">projects</a>)</li>
+                                        <li>Story/character writing & world building (see <a href="characters.html">characters</a>)</li>
+                                    </ul>
+                                    <br>
+                                    My favorite games include (in no particular order):
+                                    <ul>
+                                        <li>Minecraft</li>
+                                        <li>Stardew Valley</li>
+                                        <li>Terraria</li>
+                                        <li>Outer Wilds</li>
+                                        <li>Blue Prince</li>
+                                        <li>Hades/Hades 2</li>
+                                        <li>Hollow Knight/Silksong</li>
+                                        <li>Mario Party</li>
+                                    </ul>
+                                </p>
+                            </section>
                         </td>
                     </tr>
                 </table>
             </div>
 
             <footer>
-                <div class="footer">
-                    <h3><i>And the universe said "I love you"</i></h3>
-                    <h5>Webpage made by Mossy/Raine :]</h5>
-                </div>
+                <h3><i>And the universe said "I love you"</i></h3>
+                <h5>Webpage made by Mossy/Raine :]</h5>
             </footer>
         </div>    
     </body>
