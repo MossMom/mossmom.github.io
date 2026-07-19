@@ -5,6 +5,10 @@
     --windowBorder: #721608;
 }
 
+html {
+    scrollbar-gutter: stable;
+}
+
 .boxConstraint {
     width: 800px;
     width: 100%;
