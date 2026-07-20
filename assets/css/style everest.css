@@ -118,6 +118,17 @@ html {
     margin: auto;
 }
 
+.imgContainer {
+    position: relative;
+}
+
+.absImg1 {
+    position: absolute;
+    top: 200px;
+    right: 500px;
+    width: 400px;
+}
+
 body {
     font-size: medium;
     color: white;
